@@ -3,17 +3,14 @@ s.name     = 'GLJInfiniteScrollView'
 s.version  = '1.0.0'
 s.license  = 'MIT'
 s.summary  = 'Harness the power of Auto Layout NSLayoutConstraints with a simplified, chainable and expressive syntax.'
-s.homepage = 'https://github.com/cloudkite/Masonry'
-s.author   = { 'Jonas Budelmann' => 'jonas.budelmann@gmail.com' }
-s.social_media_url = "http://twitter.com/cloudkite"
+s.homepage = 'https://github.com/gaoleegin/GLJInfiniteScrollView'
+s.author   = { 'gaoleegin' => 'lijungao1999@163.com' }
+s.social_media_url = "http://twitter.com/gaoleegin"
 
-s.source   = { :git => 'https://github.com/cloudkite/Masonry.git', :tag => "v#{s.version}" }
+s.source   = { :git => 'https://github.com/gaoleegin/GLJInfiniteScrollView.git', :tag => "v#{s.version}" }
 
 s.description = %{
-Masonry is a light-weight layout framework which wraps AutoLayout with a nicer syntax.
-Masonry has its own layout DSL which provides a chainable way of describing your
-NSLayoutConstraints which results in layout code which is more concise and readable.
-Masonry supports iOS and Mac OSX.
+无限滚动图片的图片轮播器
 }
 
 pch_AF = <<-EOS
@@ -25,7 +22,7 @@ pch_AF = <<-EOS
 #endif
 EOS
 
-s.source_files = 'Masonry/*.{h,m}'
+s.source_files = 'GLJInfiniteScrollView/*.{h,m}'
 
 s.ios.frameworks = 'Foundation', 'UIKit'
 s.tvos.frameworks = 'Foundation', 'UIKit'
