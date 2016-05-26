@@ -1,6 +1,5 @@
 //
 //  GLJInfiniteScrollView.h
-//  06-03-分页
 //
 //  Created by gaoleegin on 16/5/25.
 //  Copyright © 2016年 gaoleegin. All rights reserved.
